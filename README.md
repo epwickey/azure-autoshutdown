@@ -1,4 +1,4 @@
-# azure-autoshutdown
+# Shutdown and start Azure instances based on tags
 Improved version of azure scheduling runbook by automys (https://github.com/automys/Azure-Automation-Scheduled-VM-Shutdown).
 
 New Feature.
