@@ -1,6 +1,6 @@
 # Automate Shutdown and start of Azure instances
 
-###Assert-AutoShutdownSchedule.ps1
+### Assert-AutoShutdownSchedule.ps1
 
 Improved version of azure scheduling runbook by automys (https://github.com/automys/Azure-Automation-Scheduled-VM-Shutdown).
 
@@ -19,7 +19,7 @@ To schedule instances using this runbook Tag the instance/Resource group with fo
    This tag will determine the last date the environment will be turned on based on the previous tag. If you need your instance up until the 02nd October 2021 you should add an endDate tag with the value "October 02 2021" along side the AutoShutdownSchedule tag
 
 
-###AutoShutdownUntagged.ps1
+### AutoShutdownUntagged.ps1
 
 Script to shutdown any instance that is not tagged for a schedule with the previous tags ( Useful in test environments with on demand instances )
 
